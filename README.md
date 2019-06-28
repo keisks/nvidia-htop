@@ -4,6 +4,10 @@ A tool for enriching the output of `nvidia-smi`.
 
 ## Usage
 
+    sh nvidia-htop.sh 
+
+    or 
+
     nvidia-smi | ./nvidia-htop.py [-l [length]]
       print GPU utilization with usernames and CPU stats for each GPU-utilizing process
 
